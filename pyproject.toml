@@ -21,9 +21,6 @@ license = {text = "MIT"}
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.pdm]
-package-type = "library"
-
 [tool.pdm.dev-dependencies]
 lint = [
     "ruff>=0.1.13",
